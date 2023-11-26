@@ -16,11 +16,6 @@
     "require": {
         "php": "^8.0|^8.2",
         "ext-json": "*",
-        "illuminate/collections": "^10.33.0",
-        "illuminate/container": "^10.33.0",
-        "illuminate/contracts": "^10.33.0",
-        "illuminate/macroable": "^10.33.0",
-        "illuminate/support": "^10.33.0",
         "league/commonmark": "^2.4.1",
         "psr/log": "^3.0.0",
         "icsweet/swiftmailer": "dev-main",
