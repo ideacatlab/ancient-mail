@@ -1,0 +1,44 @@
+{
+    "name": "ideacatlab/ancient-mail",
+    "description": "The Dark Mail package.",
+    "license": "MIT",
+    "homepage": "https://ideacat.ro",
+    "support": {
+        "issues": "https://github.com/ideacatlab/ancient-mail/issues",
+        "source": "https://github.com/ideacatlab/ancient-mail"
+    },
+    "authors": [
+        {
+            "name": "Razvan Gheorghe",
+            "email": "razvan@ideacat.ro"
+        }
+    ],
+    "require": {
+        "php": "^8.0|^8.2",
+        "ext-json": "*",
+        "illuminate/collections": "^10.33.0",
+        "illuminate/container": "^10.33.0",
+        "illuminate/contracts": "^10.33.0",
+        "illuminate/macroable": "^10.33.0",
+        "illuminate/support": "^10.33.0",
+        "league/commonmark": "^2.4.1",
+        "psr/log": "^3.0.0",
+        "icsweet/swiftmailer": "dev-main",
+        "guzzlehttp/guzzle": "^7.8.0",
+        "icsweet/swiftmailer-postmark": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Illuminate\\Mail\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
